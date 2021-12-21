@@ -6,7 +6,7 @@ from azure.identity import (
     ChainedTokenCredential,
 )
 
-url = "https://powerbidemo.api.uks.digitaltwins.azure.net"
+url = "https://IOT-ADT.api.wus2.digitaltwins.azure.net"
 
 default_credential = DefaultAzureCredential(
     exclude_interactive_browser_credential=False
